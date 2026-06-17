@@ -1,12 +1,4 @@
 #!/bin/bash
-
-# **Disclaimer**
-echo -e "\e[33mExtended Pillaging Script for Penetration Testing\e[0m"
-echo -e "\e[33mThis script is intended for authorized penetration testing only.\e[0m"
-echo -e "\e[33mEnsure you have explicit permission to run this on the target system.\e[0m"
-echo -e "\e[33mUnauthorized use may violate laws and regulations.\e[0m"
-echo ""
-
 # **Check for Root Privileges**
 if [ "$EUID" -ne 0 ]; then
     echo -e "\e[31mError: This script requires root privileges.\e[0m"
